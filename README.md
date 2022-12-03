@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+  <img src="https://telegra.ph/file/4ab42efb406401a36d097.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> SYRAX </b>
 </h1>
 
 ## ⚡️Features
