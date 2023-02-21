@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/c6e600a83822d88f3df8e.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
-  <b> SYRAX </b>
+  <b> ᴀᴋᴀᴛsᴜᴋɪ </b>
 </h1>
 
 ## ⚡️Features
