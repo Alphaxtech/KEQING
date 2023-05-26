@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpaperflare.com_wallpaper.jpg" alt="Valorant">
+  <img src="https://https://c4.wallpaperflare.com/wallpaper/363/13/252/valorant-killjoy-valorant-digital-art-artwork-digital-hd-wallpaper-preview.jpg" alt="Valorant">
 </p>
 <h1 align="center">
   <b> ᴀᴋᴀᴛsᴜᴋɪ </b>
