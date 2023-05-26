@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/c6e600a83822d88f3df8e.jpg" alt="Lazy Princess Logo">
+  <img src="https://wallpaperflare.com_wallpaper.jpg" alt="Valorant">
 </p>
 <h1 align="center">
   <b> ᴀᴋᴀᴛsᴜᴋɪ </b>
