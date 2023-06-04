@@ -1,5 +1,5 @@
 {
-    "name": "LazyPrincess",
+    "name": "Syrax",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/LazyDeveloperr/LazyPrincess",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincess",
+    "website": "https://github.com/Ragnarok360/syrax",
+    "repository": "https://github.com/Ragnarok360/syrax",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
