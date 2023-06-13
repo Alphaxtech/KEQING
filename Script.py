@@ -10,7 +10,7 @@ class script(object):
 𝙰𝙳𝚅𝙰𝙽𝚃𝙰𝙶𝙴𝚂 𝙾𝙵 𝙰𝙳𝙳𝙸𝙽𝙶 𝙼𝙴 
 *𝙽𝙾 𝙵𝙾𝚁𝙲𝙴 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 😍
 
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : _adx_hellcat_
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : ᴋɪɴɢ-sʏʀᴀx [ᴏғғʟɪɴᴇ]
 
 <b> For More Details </b>
 Join <a href=https://t.me/SS07MOVIEHUT>Movie Hut</a> """
@@ -18,7 +18,7 @@ Join <a href=https://t.me/SS07MOVIEHUT>Movie Hut</a> """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙰𝙳𝙼𝙸𝙽: _adx_hellcat_
+✯ 𝙰𝙳𝙼𝙸𝙽: ᴋɪɴɢ-sʏʀᴀx [ᴏғғʟɪɴᴇ]
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
