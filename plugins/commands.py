@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT')
+                InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
             ],
             [
                 InlineKeyboardButton('🤔 Help ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT')
+            InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
             ],[
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT')
+            InlineKeyboardButton('Search Here ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
             ],[
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -242,7 +242,7 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
         buttons = [
         [
-             InlineKeyboardButton('♻ Join Group ♻', url='t.me/SS07MOVIEHUT') 
+             InlineKeyboardButton('♻ Join Group ♻', url='t.me/movie_flickss') 
         ]
         ]
     await client.send_cached_media(
