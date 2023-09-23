@@ -2,33 +2,27 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 
-ʏᴏ, ʏᴏ ʏᴏ, 𝟷𝟺𝟾-𝟹 ᴛᴏ ᴛʜᴇ 𝟹 ᴛᴏ ᴛʜᴇ 𝟼 ᴛᴏ ᴛʜᴇ 𝟿, ʀᴇᴘʀᴇsᴇɴᴛɪɴɢ ᴛʜᴇ ᴀʙǫ, ᴡʜᴀᴛ ᴜᴘ ʙɪᴀᴛᴄʜ?
+ 𝐈 𝐜𝐚𝐧 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐀𝐥𝐥 𝐍𝐞𝐰 𝐌𝐨𝐯𝐢𝐞𝐬🤩, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
 
-𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝙶𝚁𝙾𝚄𝙿𝚂,
-𝙸𝚃'𝚂 𝚅𝙴𝚁𝚈 𝙴𝙰𝚂𝚈. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽, 𝚃𝙷𝙰𝚃𝚂 𝙰𝙻𝙻, 𝙸'𝙻𝙻 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝚃𝙷𝙴𝚁𝙴 
-
-𝙰𝙳𝚅𝙰𝙽𝚃𝙰𝙶𝙴𝚂 𝙾𝙵 𝙰𝙳𝙳𝙸𝙽𝙶 𝙼𝙴 
-*𝙽𝙾 𝙵𝙾𝚁𝙲𝙴 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 😍
-
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : ᴋɪɴɢ-sʏʀᴀx [ᴏғғʟɪɴᴇ]
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : 𓆩⛦⃕͜SABITH𓆪 [ᴏғғʟɪɴᴇ]
 
 <b> For More Details </b>
-Join <a href=https://t.me/SS07MOVIEHUT>Movie Hut</a> """
+Join <a href=https://https://t.me/movie_flickss>MOVIE FLICKS</a> """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙰𝙳𝙼𝙸𝙽: ᴋɪɴɢ-sʏʀᴀx [ᴏғғʟɪɴᴇ]
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/MALAYALI_DUDE'>𓆩⛦⃕͜SABITH𓆪➳࿐</a>
+✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
+✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.FIREBASE.COM/'>FIREBASE</a>
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- A open source bot. 
-
-<b>ADMIN:</b>
-- _adx_hellcat_"""
+- ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
+- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/+GmYmE4kYxtczOGE1">ʜᴇʀᴇ</a>
+Dᴇᴠᴇʟᴏᴘᴇʀ:
+- <a href="https://t.me/about_smp">𝑠𝑚𝑝༊!!</a></b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and {} will respond whenever a keyword is found the message
