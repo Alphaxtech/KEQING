@@ -157,13 +157,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('By ADX GROUP')
+                    return await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('By ADX GROUP')
+                return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
@@ -224,7 +224,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('By ADX GROUP')
+        return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('By ADX GROUP')
+        return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
     elif query.data == "backcb":
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('By ADX GROUP')
+            return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
         buttons = []
         for groupid in groupids:
             try:
@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT')
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
         ], [
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -438,7 +438,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT'),
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
