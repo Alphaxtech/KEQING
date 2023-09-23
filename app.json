@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Ragnarok360/syrax",
-    "repository": "https://github.com/Ragnarok360/syrax",
+    "website": "https://github.com/Sabith3938/SYRAX_BOT",
+    "repository": "https://github.com/Sabith3938/SYRAX_BOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
