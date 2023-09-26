@@ -6,7 +6,7 @@ class script(object):
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ : 𓆩⛦⃕͜SABITH𓆪 [ᴏғғʟɪɴᴇ]
 
 <b> For More Details </b>
-Join <a href="https://https://t.me/movie_flickss">MOVIE FLICKS</a> """
+Join <a href="https://t.me/movie_flickss">MOVIE FLICKS</a> """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
