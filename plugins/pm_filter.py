@@ -728,7 +728,7 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn)) 
+        generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
 
      # Wait for 2 minute and delete the generated message
     if generated_message:
