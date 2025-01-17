@@ -715,7 +715,7 @@ async def auto_filter(client, msg, spoll=False):
 ©️ Powered By:  {message.chat.title}
 
 ✨ 𝑇ℎ𝑥 𝐹𝑜𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 💝
-"""
+NB:THIS REQUEST WILL BE AUTO DELETED IN 2 MINS"""
     if imdb and imdb.get('poster'):
         try:
             generated_message = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
