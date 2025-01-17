@@ -170,7 +170,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer('By ADX GROUP')
+            return await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('By ADX GROUP')
+        await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -612,7 +612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('By ADX GROUP')
+    await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
 
 
 async def auto_filter(client, msg, spoll=False):
