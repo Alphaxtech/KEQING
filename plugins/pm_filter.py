@@ -157,20 +157,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
+                    return await query.answer('By ADX GROUP')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
+                return await query.answer('By ADX GROUP')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
+            return await query.answer('By ADX GROUP')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -224,7 +224,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
+        return await query.answer('By ADX GROUP')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
+        return await query.answer('By ADX GROUP')
     elif query.data == "backcb":
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('By 𓆩⛦⃕͜SABITH𓆪,')
+            return await query.answer('By ADX GROUP')
         buttons = []
         for groupid in groupids:
             try:
@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔎 Search 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT')
         ], [
             InlineKeyboardButton('🤔 Help ', callback_data='help'),
             InlineKeyboardButton('♥️ About ', callback_data='about')
@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
+        await query.answer('By ADX GROUP')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -438,7 +438,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss'),
+            InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/SS07MOVIEHUT'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -612,7 +612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('By 𓆩⛦⃕͜SABITH𓆪')
+    await query.answer('By ADX GROUP')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -707,33 +707,24 @@ async def auto_filter(client, msg, spoll=False):
             url=imdb['url'],
             **locals()
         )
-    cap = f"Here is what I found for your query {search}"
-    
-    generated_message = None
+    else:
+        cap = f"Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
-            generated_message = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            generated_message = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
-            generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-
-    # Wait for 2 minute and delete the generated message
-    if generated_message:
-        await asyncio.sleep(120)
-        try:
-            await generated_message.delete()
-        except Exception as e:
-            logger.exception(f"Failed to delete message: {e}")
-    
+        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
         await msg.message.delete()
+
 
 async def advantage_spell_chok(msg):
     query = re.sub(
