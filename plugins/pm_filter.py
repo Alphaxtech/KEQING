@@ -707,15 +707,9 @@ async def auto_filter(client, msg, spoll=False):
             url=imdb['url'],
             **locals()
         )
-    else:
-         cap = f"""𝐻e𝑦👋🏻  {message.from_user.mention},
+    cap = f"Here is what I found for your query {search}"
     
-<b>📬 Query</b> : <a>{search}</a>
-
-©️ Powered By:  {message.chat.title}
-
-✨ 𝑇ℎ𝑥 𝐹𝑜𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 💝
-NB:THIS REQUEST WILL BE AUTO DELETED IN 2 MINS"""
+    generated_message = None
     if imdb and imdb.get('poster'):
         try:
             generated_message = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -730,13 +724,14 @@ NB:THIS REQUEST WILL BE AUTO DELETED IN 2 MINS"""
     else:
         generated_message = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
 
-     # Wait for 2 minute and delete the generated message
+    # Wait for 2 minute and delete the generated message
     if generated_message:
         await asyncio.sleep(120)
         try:
             await generated_message.delete()
         except Exception as e:
             logger.exception(f"Failed to delete message: {e}")
+    
     if spoll:
         await msg.message.delete()
 
