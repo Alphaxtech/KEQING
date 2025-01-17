@@ -716,7 +716,7 @@ async def auto_filter(client, msg, spoll=False):
 
 ✨ 𝑇ℎ𝑥 𝐹𝑜𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 💝
 """
-     if imdb and imdb.get('poster'):
+    if imdb and imdb.get('poster'):
         try:
             generated_message = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
